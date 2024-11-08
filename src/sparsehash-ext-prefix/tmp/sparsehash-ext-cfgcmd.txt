@@ -1,0 +1,1 @@
+cmd='CC=/usr/bin/cc;CXX=/usr/bin/c++;./configure;--prefix=/mnt/e/Study/verifydtapn/src/external;CXXFLAGS=-std=c++11'

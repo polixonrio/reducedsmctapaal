@@ -1,0 +1,30 @@
+<pnml>
+<net id="ComposedModel" type="P/T net">
+<place id="TAPN1_Ready" name="TAPN1_Ready" invariant="&lt; inf" initialMarking="1" >
+<graphics><position x="180" y="120" /></graphics></place>
+<place id="TAPN1_Resting" name="TAPN1_Resting" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="180" y="270" /></graphics></place>
+<place id="TAPN1_Store" name="TAPN1_Store" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="435" y="195" /></graphics></place>
+<place id="TAPN1_Waste" name="TAPN1_Waste" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="435" y="405" /></graphics></place>
+<transition player="0" id="TAPN1_Recover" name="TAPN1_Recover" weight="1.0" firingMode="Oldest" distribution="uniform" a="0.5" b="1.5" urgent="false">
+<graphics><position x="75" y="195" /></graphics></transition>
+<transition player="0" id="TAPN1_Produce" name="TAPN1_Produce" weight="1.0" firingMode="Oldest" distribution="normal" mean="1.5" stddev="0.3" urgent="false">
+<graphics><position x="285" y="195" /></graphics></transition>
+<transition player="0" id="TAPN1_Consume1" name="TAPN1_Consume1" weight="1.0" firingMode="Random" distribution="exponential" rate="0.4" urgent="false">
+<graphics><position x="615" y="120" /></graphics></transition>
+<transition player="0" id="TAPN1_Consume2" name="TAPN1_Consume2" weight="1.0" firingMode="Youngest" distribution="exponential" rate="0.6" urgent="false">
+<graphics><position x="615" y="270" /></graphics></transition>
+<transition player="0" id="TAPN1_Expire" name="TAPN1_Expire" weight="Infinity" firingMode="Oldest" distribution="constant" value="0.0" urgent="false">
+<graphics><position x="435" y="300" /></graphics></transition>
+<inputArc inscription="[0,inf)" source="TAPN1_Ready" target="TAPN1_Produce" />
+<inputArc inscription="[0,inf)" source="TAPN1_Resting" target="TAPN1_Recover" />
+<inputArc inscription="[0,inf)" source="TAPN1_Store" target="TAPN1_Consume1" />
+<inputArc inscription="[3,8]" source="TAPN1_Store" target="TAPN1_Consume2" />
+<outputArc inscription="1" source="TAPN1_Produce" target="TAPN1_Resting" />
+<outputArc inscription="1" source="TAPN1_Recover" target="TAPN1_Ready" />
+<outputArc inscription="1" source="TAPN1_Produce" target="TAPN1_Store" />
+<transportArc inscription="[9,inf)" source="TAPN1_Store" transition="TAPN1_Expire" target="TAPN1_Waste" />
+</net>
+</pnml>

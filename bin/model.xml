@@ -1,0 +1,70 @@
+<pnml>
+<net id="ComposedModel" type="P/T net">
+<place id="Shared_Man_L" name="Shared_Man_L" invariant="&lt; inf" initialMarking="1" >
+<graphics><position x="360" y="225" /></graphics></place>
+<place id="Shared_Wolf_L" name="Shared_Wolf_L" invariant="&lt; inf" initialMarking="1" >
+<graphics><position x="360" y="285" /></graphics></place>
+<place id="Shared_Goat_L" name="Shared_Goat_L" invariant="&lt; inf" initialMarking="1" >
+<graphics><position x="360" y="345" /></graphics></place>
+<place id="Shared_Cab_L" name="Shared_Cab_L" invariant="&lt; inf" initialMarking="1" >
+<graphics><position x="360" y="405" /></graphics></place>
+<place id="Shared_Man_R" name="Shared_Man_R" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="720" y="225" /></graphics></place>
+<place id="Shared_Wolf_R" name="Shared_Wolf_R" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="720" y="285" /></graphics></place>
+<place id="Shared_Goat_R" name="Shared_Goat_R" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="720" y="345" /></graphics></place>
+<place id="Shared_Cab_R" name="Shared_Cab_R" invariant="&lt; inf" initialMarking="0" >
+<graphics><position x="720" y="405" /></graphics></place>
+<transition player="0" id="L2R_MWLR" name="L2R_MWLR" weight="1.0" firingMode="Oldest" distribution="constant" value="1.0" urgent="false">
+<graphics><position x="360" y="150" /></graphics></transition>
+<transition player="0" id="L2R_MGLR" name="L2R_MGLR" weight="1.0" firingMode="Oldest" distribution="constant" value="1.0" urgent="false">
+<graphics><position x="360" y="210" /></graphics></transition>
+<transition player="0" id="L2R_MCLR" name="L2R_MCLR" weight="1.0" firingMode="Oldest" distribution="constant" value="1.0" urgent="false">
+<graphics><position x="360" y="270" /></graphics></transition>
+<transition player="0" id="R2L_MRL" name="R2L_MRL" weight="1.0" firingMode="Oldest" distribution="constant" value="1.0" urgent="false">
+<graphics><position x="1320" y="165" /></graphics></transition>
+<transition player="0" id="Eating_WolfEatsGoat_L" name="Eating_WolfEatsGoat_L" weight="1.0" firingMode="Youngest" distribution="normal" mean="3.0" stddev="1.0" urgent="false">
+<graphics><position x="195" y="600" /></graphics></transition>
+<transition player="0" id="Eating_GoatEatsCabbage_L" name="Eating_GoatEatsCabbage_L" weight="1.0" firingMode="Youngest" distribution="normal" mean="3.0" stddev="1.0" urgent="false">
+<graphics><position x="195" y="855" /></graphics></transition>
+<transition player="0" id="Eating_WolfEatsGoat_R" name="Eating_WolfEatsGoat_R" weight="1.0" firingMode="Youngest" distribution="normal" mean="3.0" stddev="1.0" urgent="false">
+<graphics><position x="960" y="570" /></graphics></transition>
+<transition player="0" id="Eating_GoatEatsCabbage_R" name="Eating_GoatEatsCabbage_R" weight="1.0" firingMode="Youngest" distribution="normal" mean="3.0" stddev="1.0" urgent="false">
+<graphics><position x="960" y="870" /></graphics></transition>
+<inputArc inscription="[1,inf)" source="Shared_Man_L" target="L2R_MWLR" />
+<inputArc inscription="[1,inf)" source="Shared_Wolf_L" target="L2R_MWLR" />
+<inputArc inscription="[1,inf)" source="Shared_Man_L" target="L2R_MGLR" />
+<inputArc inscription="[1,inf)" source="Shared_Goat_L" target="L2R_MGLR" />
+<inputArc inscription="[1,inf)" source="Shared_Man_L" target="L2R_MCLR" />
+<inputArc inscription="[1,inf)" source="Shared_Cab_L" target="L2R_MCLR" />
+<inputArc inscription="[1,inf)" source="Shared_Man_R" target="R2L_MRL" />
+<inputArc inscription="[0,inf)" source="Shared_Cab_L" target="Eating_GoatEatsCabbage_L" />
+<inputArc inscription="[0,inf)" source="Shared_Goat_L" target="Eating_GoatEatsCabbage_L" />
+<inputArc inscription="[0,inf)" source="Shared_Man_R" target="Eating_GoatEatsCabbage_L" />
+<inputArc inscription="[0,inf)" source="Shared_Cab_R" target="Eating_GoatEatsCabbage_R" />
+<inputArc inscription="[0,inf)" source="Shared_Goat_R" target="Eating_GoatEatsCabbage_R" />
+<inputArc inscription="[0,inf)" source="Shared_Man_L" target="Eating_GoatEatsCabbage_R" />
+<inputArc inscription="[0,inf)" source="Shared_Goat_R" target="Eating_WolfEatsGoat_R" />
+<inputArc inscription="[0,inf)" source="Shared_Wolf_R" target="Eating_WolfEatsGoat_R" />
+<inputArc inscription="[0,inf)" source="Shared_Man_L" target="Eating_WolfEatsGoat_R" />
+<inputArc inscription="[0,inf)" source="Shared_Goat_L" target="Eating_WolfEatsGoat_L" />
+<inputArc inscription="[0,inf)" source="Shared_Wolf_L" target="Eating_WolfEatsGoat_L" />
+<inputArc inscription="[0,inf)" source="Shared_Man_R" target="Eating_WolfEatsGoat_L" />
+<outputArc inscription="1" source="L2R_MWLR" target="Shared_Man_R" />
+<outputArc inscription="1" source="L2R_MWLR" target="Shared_Wolf_R" />
+<outputArc inscription="1" source="L2R_MGLR" target="Shared_Man_R" />
+<outputArc inscription="1" source="L2R_MGLR" target="Shared_Goat_R" />
+<outputArc inscription="1" source="L2R_MCLR" target="Shared_Man_R" />
+<outputArc inscription="1" source="L2R_MCLR" target="Shared_Cab_R" />
+<outputArc inscription="1" source="R2L_MRL" target="Shared_Man_L" />
+<outputArc inscription="1" source="Eating_GoatEatsCabbage_L" target="Shared_Goat_L" />
+<outputArc inscription="1" source="Eating_GoatEatsCabbage_L" target="Shared_Man_R" />
+<outputArc inscription="1" source="Eating_GoatEatsCabbage_R" target="Shared_Goat_R" />
+<outputArc inscription="1" source="Eating_GoatEatsCabbage_R" target="Shared_Man_L" />
+<outputArc inscription="1" source="Eating_WolfEatsGoat_R" target="Shared_Wolf_R" />
+<outputArc inscription="1" source="Eating_WolfEatsGoat_R" target="Shared_Man_L" />
+<outputArc inscription="1" source="Eating_WolfEatsGoat_L" target="Shared_Wolf_L" />
+<outputArc inscription="1" source="Eating_WolfEatsGoat_L" target="Shared_Man_R" />
+</net>
+</pnml>

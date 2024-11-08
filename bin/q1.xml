@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<property-set xmlns="http://tapaal.net/">
+  
+  <property>
+    <id>Too much waste</id>
+    <description>Too much waste</description>
+    <smc confidence="0.95" interval-width="0.01" time-bound="100"/>
+    <formula>
+      <finally>
+        <integer-ge>
+          <tokens-count>
+            <place>TAPN1_Waste</place>
+          </tokens-count>
+          <integer-constant>3</integer-constant>
+        </integer-ge>
+      </finally>
+    </formula>
+  </property>
+</property-set>

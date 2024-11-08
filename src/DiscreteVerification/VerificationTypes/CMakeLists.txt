@@ -1,0 +1,4 @@
+
+add_library(VerificationTypes SMCVerification.cpp ProbabilityEstimation.cpp ProbabilityFloatComparison.cpp ProbabilityComparison.cpp SMCTracesGenerator.cpp)
+
+target_link_libraries(VerificationTypes Util DataStructures)
