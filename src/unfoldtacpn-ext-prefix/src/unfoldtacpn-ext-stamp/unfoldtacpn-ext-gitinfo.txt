@@ -1,3 +1,0 @@
-repository='https://github.com/TAPAAL/unfoldTACPN'
-module=''
-tag='origin'

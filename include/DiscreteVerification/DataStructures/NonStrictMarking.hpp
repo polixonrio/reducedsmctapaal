@@ -10,7 +10,6 @@
 
 #include "NonStrictMarkingBase.hpp"
 #include "Core/TAPN/TAPN.hpp"
-#include "MetaData.h"
 
 #include <vector>
 #include <iostream>
@@ -43,9 +42,7 @@ namespace VerifyTAPN { namespace DiscreteVerification {
             return totalDelay;
         }
 
-    public:
-        MetaData *meta;
-    };
+
 } } /* namespace VerifyTAPN */
 
 #endif /* NONSTRICTMARKING_HPP_ */

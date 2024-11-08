@@ -1,1 +1,0 @@
-cmd='mkdir;-p;/mnt/e/Study/verifydtapn/src/external/include'

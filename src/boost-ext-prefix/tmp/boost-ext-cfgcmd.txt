@@ -1,1 +1,0 @@
-cmd='./bootstrap.sh;--prefix=/mnt/e/Study/verifydtapn/src/external;cxxflags="-arch x86_64";--without-icu'

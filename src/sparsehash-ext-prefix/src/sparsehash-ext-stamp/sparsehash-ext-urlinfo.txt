@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://github.com/sparsehash/sparsehash/archive/sparsehash-2.0.4.zip'
-tag=''
