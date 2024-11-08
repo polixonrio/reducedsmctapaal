@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<property-set xmlns="http://tapaal.net/">
+  
+  <property>
+    <id>Hit heads</id>
+    <description>Hit heads</description>
+    <smc confidence="0.95" interval-width="0.01" time-bound="1000"/>
+    <formula>
+      <finally>
+        <integer-eq>
+          <tokens-count>
+            <place>Coin_heads</place>
+          </tokens-count>
+          <integer-constant>1</integer-constant>
+        </integer-eq>
+      </finally>
+    </formula>
+  </property>
+</property-set>

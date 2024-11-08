@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<property-set xmlns="http://tapaal.net/">
+  
+  <property>
+    <id>Probability Tester</id>
+    <description>Probability Tester</description>
+    <smc confidence="0.95" interval-width="0.0015" time-bound="1000"/>
+    <formula>
+      <finally>
+        <conjunction>
+          <integer-eq>
+            <tokens-count>
+              <place>Shared_Goat_R</place>
+            </tokens-count>
+            <integer-constant>1</integer-constant>
+          </integer-eq>
+          <integer-eq>
+            <tokens-count>
+              <place>Shared_Man_R</place>
+            </tokens-count>
+            <integer-constant>1</integer-constant>
+          </integer-eq>
+          <integer-eq>
+            <tokens-count>
+              <place>Shared_Cab_R</place>
+            </tokens-count>
+            <integer-constant>1</integer-constant>
+          </integer-eq>
+          <integer-eq>
+            <tokens-count>
+              <place>Shared_Wolf_R</place>
+            </tokens-count>
+            <integer-constant>1</integer-constant>
+          </integer-eq>
+        </conjunction>
+      </finally>
+    </formula>
+  </property>
+</property-set>

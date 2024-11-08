@@ -1,0 +1,1602 @@
+Missing query-indexes for query-file (which is identified as XML-format), assuming only first query is to be verified
+MC: 9
+SMC Verification (all irrelevant options will be ignored)
+Model file is: overflowtracemodel.xml
+Query file is: overflowtracequery.xml
+Starting SMC...
+. Using 16 threads...
+  runs executed:	18
+  average run length:	440.833
+  average run duration:	371.795
+  verification time:	0.0542846s
+
+TRANSITION STATISTICS
+<TAPN1_Recover:0> <TAPN1_Produce:0> <TAPN1_Consume1:0> <TAPN1_Consume2:0> <TAPN1_Expire:0>
+
+PLACE-BOUND STATISTICS
+<TAPN1_Ready;0> <TAPN1_Resting;0> <TAPN1_Store;0> <TAPN1_Waste;0> 
+
+Trace: 
+<trace-list>
+	<trace name="Simulation1">
+		<delay>1.54598</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.54598"/>
+		</transition>
+		<delay>0.32962</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.32962"/>
+		</transition>
+		<delay>1.05763</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.38725"/>
+		</transition>
+		<delay>1.10219</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.10219"/>
+		</transition>
+		<delay>0.65729</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.65729"/>
+		</transition>
+		<delay>1.51808</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.51808"/>
+		</transition>
+		<delay>0.91563</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.91563"/>
+		</transition>
+		<delay>0.52384</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.43947"/>
+		</transition>
+		<delay>0.23095</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.67042"/>
+		</transition>
+		<delay>1.08020</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.31115"/>
+		</transition>
+		<delay>0.63620</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.63620"/>
+		</transition>
+		<delay>0.36620</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.00240"/>
+		</transition>
+		<delay>1.01654</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.38274"/>
+		</transition>
+		<delay>0.30885</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.30885"/>
+		</transition>
+		<delay>0.20724</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.51609"/>
+		</transition>
+		<delay>1.48624</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.48624"/>
+		</transition>
+		<delay>1.22766</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22766"/>
+		</transition>
+		<delay>1.36740</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36740"/>
+		</transition>
+		<delay>0.18370</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.18370"/>
+		</transition>
+		<delay>0.13191</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.31561"/>
+		</transition>
+		<delay>1.15444</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.47005"/>
+		</transition>
+		<delay>1.79890</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.79890"/>
+		</transition>
+		<delay>1.05703</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.05703"/>
+		</transition>
+		<delay>0.13898</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.19601"/>
+		</transition>
+		<delay>0.99405</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.13303"/>
+		</transition>
+		<delay>1.22224</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22224"/>
+		</transition>
+		<delay>1.22174</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.44398"/>
+		</transition>
+		<delay>0.03464</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.25638"/>
+		</transition>
+		<delay>1.26458</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.26458"/>
+		</transition>
+		<delay>1.19622</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.19622"/>
+		</transition>
+		<delay>0.55780</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.55780"/>
+		</transition>
+		<delay>0.88935</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.90795"/>
+		</transition>
+		<delay>0.28828</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.17763"/>
+		</transition>
+		<delay>1.15486</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.15486"/>
+		</transition>
+		<delay>0.45540</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.61026"/>
+		</transition>
+		<delay>0.87431</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.32971"/>
+		</transition>
+		<delay>0.63803</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.63803"/>
+		</transition>
+		<delay>0.86730</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.98990"/>
+		</transition>
+		<delay>1.19941</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.06671"/>
+		</transition>
+		<delay>0.50653</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.50653"/>
+		</transition>
+		<delay>0.10483</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.61136"/>
+		</transition>
+		<delay>0.95512</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.56648"/>
+		</transition>
+		<delay>0.51371</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.46883"/>
+		</transition>
+		<delay>0.79002</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.79002"/>
+		</transition>
+		<delay>0.36060</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.15062"/>
+		</transition>
+		<delay>1.50282</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.50282"/>
+		</transition>
+		<delay>1.25984</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.25984"/>
+		</transition>
+		<delay>1.67005</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.67005"/>
+		</transition>
+		<delay>0.85241</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.85241"/>
+		</transition>
+		<delay>0.66567</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="4.44797"/>
+		</transition>
+		<delay>0.59456</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.26023"/>
+		</transition>
+		<delay>0.68986</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.68986"/>
+		</transition>
+		<delay>0.53022</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22008"/>
+		</transition>
+		<delay>1.28939</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.28939"/>
+		</transition>
+		<delay>0.50800</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.50800"/>
+		</transition>
+		<delay>0.03068</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.04815"/>
+		</transition>
+		<delay>0.06565</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.60433"/>
+		</transition>
+		<delay>1.58766</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.68399"/>
+		</transition>
+		<delay>1.01741</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.01741"/>
+		</transition>
+		<delay>0.16434</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.18175"/>
+		</transition>
+		<delay>1.36826</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.53260"/>
+		</transition>
+		<delay>0.62474</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.62474"/>
+		</transition>
+		<delay>0.06022</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.68496"/>
+		</transition>
+		<delay>1.52906</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.52906"/>
+		</transition>
+		<delay>0.16061</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.16061"/>
+		</transition>
+		<delay>0.67904</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.83965"/>
+		</transition>
+		<delay>1.54888</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.54888"/>
+		</transition>
+		<delay>0.06470</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.06470"/>
+		</transition>
+		<delay>0.98603</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.05073"/>
+		</transition>
+		<delay>1.83803</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.83803"/>
+		</transition>
+		<delay>1.26161</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.26161"/>
+		</transition>
+		<delay>1.48737</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.48737"/>
+		</transition>
+		<delay>0.46117</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.21015"/>
+		</transition>
+		<delay>1.01620</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.47737"/>
+		</transition>
+		<delay>1.55867</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.03604"/>
+		</transition>
+		<delay>0.20050</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.75917"/>
+		</transition>
+		<delay>1.31509</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.31509"/>
+		</transition>
+		<delay>0.63107</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.94616"/>
+		</transition>
+		<delay>1.50831</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.13938"/>
+		</transition>
+		<delay>0.79502</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.79502"/>
+		</transition>
+		<delay>0.30707</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.10209"/>
+		</transition>
+		<delay>1.34838</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.34838"/>
+		</transition>
+		<delay>1.40630</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.40630"/>
+		</transition>
+		<delay>1.70091</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.10721"/>
+		</transition>
+		<delay>0.41867</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.11958"/>
+		</transition>
+		<delay>1.12720</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.12720"/>
+		</transition>
+		<delay>1.22929</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.35649"/>
+		</transition>
+		<delay>0.46209</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.69138"/>
+		</transition>
+		<delay>0.72933</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.72933"/>
+		</transition>
+		<delay>0.16985</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.89918"/>
+		</transition>
+		<delay>1.04660</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.21645"/>
+		</transition>
+		<delay>1.22098</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22098"/>
+		</transition>
+		<delay>1.43972</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.43972"/>
+		</transition>
+		<delay>0.69652</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.35722"/>
+		</transition>
+		<delay>0.58557</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.28209"/>
+		</transition>
+		<delay>1.59589</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.59589"/>
+		</transition>
+		<delay>0.41928</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.29726"/>
+		</transition>
+		<delay>0.71336</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.13264"/>
+		</transition>
+		<delay>0.28545</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.41809"/>
+		</transition>
+		<delay>1.04778</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.33323"/>
+		</transition>
+		<delay>1.44948</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.44948"/>
+		</transition>
+		<delay>0.24611</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.69559"/>
+		</transition>
+		<delay>1.54052</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.78663"/>
+		</transition>
+		<delay>1.37830</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.37830"/>
+		</transition>
+		<delay>0.16788</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.54618"/>
+		</transition>
+		<delay>1.63312</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.80100"/>
+		</transition>
+		<delay>1.07800</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.07800"/>
+		</transition>
+		<delay>1.28264</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.28264"/>
+		</transition>
+		<delay>1.41957</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.41957"/>
+		</transition>
+		<delay>0.15233</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.93254"/>
+		</transition>
+		<delay>0.84760</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.41950"/>
+		</transition>
+		<delay>0.68234</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.68227"/>
+		</transition>
+		<delay>0.87370</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.87370"/>
+		</transition>
+		<delay>1.27026</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.27026"/>
+		</transition>
+		<delay>1.17973</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.32369"/>
+		</transition>
+		<delay>0.16690</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.34663"/>
+		</transition>
+		<delay>1.33201</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.33201"/>
+		</transition>
+		<delay>0.92111</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.92111"/>
+		</transition>
+		<delay>0.33870</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.93845"/>
+		</transition>
+		<delay>0.91558</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.25428"/>
+		</transition>
+		<delay>0.84612</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.02151"/>
+		</transition>
+		<delay>0.30987</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.15599"/>
+		</transition>
+		<delay>1.85067</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.00666"/>
+		</transition>
+		<delay>0.01081</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.86148"/>
+		</transition>
+		<delay>0.81782</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.81782"/>
+		</transition>
+		<delay>1.50393</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.50393"/>
+		</transition>
+		<delay>0.00387</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.00387"/>
+		</transition>
+		<delay>0.86883</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.87270"/>
+		</transition>
+		<delay>1.51354</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.51354"/>
+		</transition>
+		<delay>0.53390</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.53390"/>
+		</transition>
+		<delay>1.42473</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.42473"/>
+		</transition>
+		<delay>1.19493</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.19493"/>
+		</transition>
+		<delay>0.20392</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.39885"/>
+		</transition>
+		<delay>0.93718</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.14110"/>
+		</transition>
+		<delay>0.74608</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.74608"/>
+		</transition>
+		<delay>1.23367</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.23367"/>
+		</transition>
+	</trace>
+	<trace name="Simulation2">
+		<delay>1.69032</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.69032"/>
+		</transition>
+		<delay>0.15102</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.15102"/>
+		</transition>
+		<delay>1.24622</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.39724"/>
+		</transition>
+		<delay>1.39091</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.39091"/>
+		</transition>
+		<delay>1.03745</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.03745"/>
+		</transition>
+		<delay>1.28645</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.28645"/>
+		</transition>
+		<delay>1.14326</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.14326"/>
+		</transition>
+		<delay>0.17705</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.64421"/>
+		</transition>
+		<delay>0.75594</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.93299"/>
+		</transition>
+		<delay>0.71650</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.71650"/>
+		</transition>
+		<delay>0.66887</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.46162"/>
+		</transition>
+		<delay>0.77591</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.44478"/>
+		</transition>
+		<delay>0.82177</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.82177"/>
+		</transition>
+		<delay>0.69828</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.52005"/>
+		</transition>
+		<delay>0.75809</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.45637"/>
+		</transition>
+		<delay>0.33218</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="4.77160"/>
+		</transition>
+		<delay>0.48090</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.81308"/>
+		</transition>
+		<delay>0.50362</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.31670"/>
+		</transition>
+		<delay>2.01475</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.01475"/>
+		</transition>
+		<delay>1.47844</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.47844"/>
+		</transition>
+		<delay>1.36684</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36684"/>
+		</transition>
+		<delay>0.87351</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.87351"/>
+		</transition>
+		<delay>0.21573</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.08924"/>
+		</transition>
+		<delay>1.18582</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="5.12034"/>
+		</transition>
+		<delay>0.75070</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.93652"/>
+		</transition>
+		<delay>1.38677</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.38677"/>
+		</transition>
+		<delay>1.18471</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.18471"/>
+		</transition>
+		<delay>0.28984</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.28984"/>
+		</transition>
+		<delay>0.14564</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.43548"/>
+		</transition>
+		<delay>0.38755</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.82303"/>
+		</transition>
+		<delay>1.35250</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.35250"/>
+		</transition>
+		<delay>1.04701</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.04701"/>
+		</transition>
+		<delay>1.04241</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.04241"/>
+		</transition>
+		<delay>0.75950</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.75950"/>
+		</transition>
+		<delay>0.00149</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.76099"/>
+		</transition>
+		<delay>1.61584</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.61733"/>
+		</transition>
+		<delay>0.65210</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.65210"/>
+		</transition>
+		<delay>1.01677</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.66887"/>
+		</transition>
+		<delay>0.99357</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.01034"/>
+		</transition>
+		<delay>0.82502</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="5.86429"/>
+		</transition>
+		<delay>0.42418</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.24920"/>
+		</transition>
+		<delay>0.98915</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.98915"/>
+		</transition>
+		<delay>0.72962</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.72962"/>
+		</transition>
+		<delay>0.76690</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.49652"/>
+		</transition>
+		<delay>0.02627</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.76114"/>
+		</transition>
+		<delay>0.42328</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.21645"/>
+		</transition>
+		<delay>0.93259</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.93259"/>
+		</transition>
+		<delay>0.17883</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.11142"/>
+		</transition>
+		<delay>1.52757</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.70640"/>
+		</transition>
+		<delay>0.71233</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.71233"/>
+		</transition>
+		<delay>0.53983</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.25216"/>
+		</transition>
+		<delay>1.73083</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.73083"/>
+		</transition>
+		<delay>0.51829</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.51829"/>
+		</transition>
+		<delay>0.91933</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.43762"/>
+		</transition>
+		<delay>0.85600</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.85600"/>
+		</transition>
+		<delay>1.22048</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22048"/>
+		</transition>
+		<delay>1.65119</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.65119"/>
+		</transition>
+		<delay>0.50843</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.38010"/>
+		</transition>
+		<delay>0.75916</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.26759"/>
+		</transition>
+		<delay>2.04026</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.04026"/>
+		</transition>
+		<delay>0.11574</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.11574"/>
+		</transition>
+		<delay>0.83898</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.95472"/>
+		</transition>
+		<delay>1.34385</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="5.60642"/>
+		</transition>
+		<delay>0.08114</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.42499"/>
+		</transition>
+		<delay>1.22828</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.22828"/>
+		</transition>
+		<delay>0.84508</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.07336"/>
+		</transition>
+		<delay>0.47027</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.31535"/>
+		</transition>
+		<delay>0.93887</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.93887"/>
+		</transition>
+		<delay>0.10417</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.04304"/>
+		</transition>
+		<delay>1.42458</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.52875"/>
+		</transition>
+		<delay>0.50757</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.50757"/>
+		</transition>
+		<delay>0.03668</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.54425"/>
+		</transition>
+		<delay>1.18275</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.21943"/>
+		</transition>
+		<delay>0.63911</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.63911"/>
+		</transition>
+		<delay>1.36708</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36708"/>
+		</transition>
+		<delay>1.05108</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.05108"/>
+		</transition>
+		<delay>0.71931</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.77658"/>
+		</transition>
+		<delay>0.83686</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.55617"/>
+		</transition>
+		<delay>1.39476</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.39476"/>
+		</transition>
+		<delay>0.71371</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.10847"/>
+		</transition>
+		<delay>0.59188</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.30559"/>
+		</transition>
+		<delay>0.70602</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.40637"/>
+		</transition>
+		<delay>0.30312</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.00914"/>
+		</transition>
+		<delay>0.62440</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.63354"/>
+		</transition>
+		<delay>0.71986</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.34426"/>
+		</transition>
+		<delay>1.23275</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.23275"/>
+		</transition>
+		<delay>1.36736</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36736"/>
+		</transition>
+		<delay>0.23965</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.23965"/>
+		</transition>
+		<delay>1.20921</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.44886"/>
+		</transition>
+		<delay>0.10514</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.55400"/>
+		</transition>
+		<delay>1.08992</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.19506"/>
+		</transition>
+		<delay>0.86305</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.86305"/>
+		</transition>
+		<delay>0.59799</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.46104"/>
+		</transition>
+		<delay>0.76905</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36704"/>
+		</transition>
+		<delay>0.65103</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.65103"/>
+		</transition>
+		<delay>0.58108</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.23211"/>
+		</transition>
+		<delay>1.96229</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.96229"/>
+		</transition>
+		<delay>0.90571</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.90571"/>
+		</transition>
+		<delay>1.41198</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.41198"/>
+		</transition>
+		<delay>0.67087</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.67087"/>
+		</transition>
+		<delay>0.41077</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.39933"/>
+		</transition>
+		<delay>1.43383</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.84460"/>
+		</transition>
+		<delay>0.86878</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.38425"/>
+		</transition>
+		<delay>0.11940</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.98818"/>
+		</transition>
+		<delay>1.28739</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.28739"/>
+		</transition>
+		<delay>1.48809</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.48809"/>
+		</transition>
+		<delay>0.22642</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.71451"/>
+		</transition>
+		<delay>0.45437</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="4.44445"/>
+		</transition>
+		<delay>1.31162</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.99241"/>
+		</transition>
+		<delay>0.89131</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.89131"/>
+		</transition>
+		<delay>0.32240</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.21371"/>
+		</transition>
+		<delay>1.06306</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.38546"/>
+		</transition>
+		<delay>0.50861</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.50861"/>
+		</transition>
+		<delay>1.67570</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.67570"/>
+		</transition>
+		<delay>0.68764</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.68764"/>
+		</transition>
+		<delay>0.69547</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.38311"/>
+		</transition>
+		<delay>1.38600</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.38600"/>
+		</transition>
+		<delay>0.59022</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.59022"/>
+		</transition>
+		<delay>0.99710</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.99710"/>
+		</transition>
+		<delay>0.68569</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.68569"/>
+		</transition>
+		<delay>1.65698</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.65698"/>
+		</transition>
+	</trace>
+	<trace name="Simulation3">
+		<delay>2.01836</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.01836"/>
+		</transition>
+		<delay>1.41899</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.41899"/>
+		</transition>
+		<delay>1.12516</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.54415"/>
+		</transition>
+		<delay>0.63658</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.76174"/>
+		</transition>
+		<delay>1.13510</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.13510"/>
+		</transition>
+		<delay>0.19593</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.33103"/>
+		</transition>
+		<delay>1.37726</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.37726"/>
+		</transition>
+		<delay>0.86519</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.86519"/>
+		</transition>
+		<delay>0.47020</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.33539"/>
+		</transition>
+		<delay>1.03087</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.03087"/>
+		</transition>
+		<delay>0.62032</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.62032"/>
+		</transition>
+		<delay>0.50899</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.12931"/>
+		</transition>
+		<delay>1.31180</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.31180"/>
+		</transition>
+		<delay>0.30610</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.30610"/>
+		</transition>
+		<delay>0.72578</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.03188"/>
+		</transition>
+		<delay>0.88097</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.88097"/>
+		</transition>
+		<delay>0.49631</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.49631"/>
+		</transition>
+		<delay>0.19956</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.69587"/>
+		</transition>
+		<delay>1.29829</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.29829"/>
+		</transition>
+		<delay>0.11591</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.11591"/>
+		</transition>
+		<delay>0.97293</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.08884"/>
+		</transition>
+		<delay>1.19962</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.19962"/>
+		</transition>
+		<delay>0.60749</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.60749"/>
+		</transition>
+		<delay>1.02285</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.63034"/>
+		</transition>
+		<delay>0.90863</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.93148"/>
+		</transition>
+		<delay>1.05664</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.05664"/>
+		</transition>
+		<delay>0.55540</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.61204"/>
+		</transition>
+		<delay>0.37438</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.92978"/>
+		</transition>
+		<delay>0.58605</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.58605"/>
+		</transition>
+		<delay>1.62329</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.62329"/>
+		</transition>
+		<delay>0.58258</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.58258"/>
+		</transition>
+		<delay>0.51505</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.30697"/>
+		</transition>
+		<delay>0.18798</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.28561"/>
+		</transition>
+		<delay>1.72872</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.72872"/>
+		</transition>
+		<delay>0.90417</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.90417"/>
+		</transition>
+		<delay>1.34153</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="2.24570"/>
+		</transition>
+		<delay>0.24759</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.58912"/>
+		</transition>
+		<delay>1.36454</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.36454"/>
+		</transition>
+		<delay>1.50912</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.50912"/>
+		</transition>
+		<delay>0.57837</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.57837"/>
+		</transition>
+		<delay>0.73564</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.31401"/>
+		</transition>
+		<delay>0.05621</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="4.24388"/>
+		</transition>
+		<delay>1.13757</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.92942"/>
+		</transition>
+		<delay>0.34824</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.34824"/>
+		</transition>
+		<delay>0.74914</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.09738"/>
+		</transition>
+		<delay>1.48595</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.48595"/>
+		</transition>
+		<delay>0.85540</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.85540"/>
+		</transition>
+		<delay>0.35866</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.21406"/>
+		</transition>
+		<delay>0.86174</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.22040"/>
+		</transition>
+		<delay>0.36303</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.36303"/>
+		</transition>
+		<delay>0.50405</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.86708"/>
+		</transition>
+		<delay>1.85130</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.85130"/>
+		</transition>
+		<delay>0.18748</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.18748"/>
+		</transition>
+		<delay>0.62007</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.80755"/>
+		</transition>
+		<delay>1.29776</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.29776"/>
+		</transition>
+		<delay>0.55605</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.55605"/>
+		</transition>
+		<delay>0.27621</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.83226"/>
+		</transition>
+		<delay>1.92466</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.92466"/>
+		</transition>
+		<delay>0.50854</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.50854"/>
+		</transition>
+		<delay>0.92051</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.42905"/>
+		</transition>
+		<delay>0.85691</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="0.85691"/>
+		</transition>
+		<delay>0.84833</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.84833"/>
+		</transition>
+		<delay>0.13538</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.98371"/>
+		</transition>
+		<delay>1.78029</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.78029"/>
+		</transition>
+		<delay>0.88649</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.88649"/>
+		</transition>
+		<delay>0.41242</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.29891"/>
+		</transition>
+		<delay>1.04094</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.45336"/>
+		</transition>
+		<delay>0.79950</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.79950"/>
+		</transition>
+		<delay>0.25528</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.05478"/>
+		</transition>
+		<delay>1.21084</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.21084"/>
+		</transition>
+		<delay>1.27432</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.27432"/>
+		</transition>
+		<delay>1.61137</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.61137"/>
+		</transition>
+		<delay>0.11045</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.11045"/>
+		</transition>
+		<delay>0.30941</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.30555"/>
+		</transition>
+		<delay>0.54830</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.96816"/>
+		</transition>
+		<delay>1.40098</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.40098"/>
+		</transition>
+		<delay>0.94012</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.94012"/>
+		</transition>
+		<delay>1.86688</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.86688"/>
+		</transition>
+		<delay>0.66173</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.66173"/>
+		</transition>
+		<delay>0.40742</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.06915"/>
+		</transition>
+		<delay>0.97672</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.38414"/>
+		</transition>
+		<delay>1.14767</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.14767"/>
+		</transition>
+		<delay>0.16080</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.35434"/>
+		</transition>
+		<delay>1.22098</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.38178"/>
+		</transition>
+		<delay>0.53182</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.53182"/>
+		</transition>
+		<delay>0.87049</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.40231"/>
+		</transition>
+		<delay>0.49124</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="4.42300"/>
+		</transition>
+		<delay>1.14694</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.63818"/>
+		</transition>
+		<delay>1.38222</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.38222"/>
+		</transition>
+		<delay>1.57205</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.57205"/>
+		</transition>
+		<delay>0.24561</delay>
+		<transition id="TAPN1_Consume2">
+			<token place="TAPN1_Store" age="3.19988"/>
+		</transition>
+		<delay>0.87057</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.11618"/>
+		</transition>
+		<delay>0.73943</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.85561"/>
+		</transition>
+		<delay>1.14121</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.88064"/>
+		</transition>
+		<delay>0.35229</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.35229"/>
+		</transition>
+		<delay>1.09304</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.44533"/>
+		</transition>
+		<delay>1.73020</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.73020"/>
+		</transition>
+		<delay>1.16943</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.16943"/>
+		</transition>
+		<delay>0.58860</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.75803"/>
+		</transition>
+		<delay>1.50103</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="2.08963"/>
+		</transition>
+		<delay>0.50533</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.50533"/>
+		</transition>
+		<delay>0.34603</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.85136"/>
+		</transition>
+		<delay>1.47955</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.47955"/>
+		</transition>
+		<delay>0.55498</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.55498"/>
+		</transition>
+		<delay>0.74395</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.29893"/>
+		</transition>
+		<delay>1.08438</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.82833"/>
+		</transition>
+		<delay>0.97797</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.97797"/>
+		</transition>
+		<delay>0.58523</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.56320"/>
+		</transition>
+		<delay>1.30568</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.89091"/>
+		</transition>
+		<delay>0.68285</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.68285"/>
+		</transition>
+		<delay>0.26292</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.94577"/>
+		</transition>
+		<delay>1.57221</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.57221"/>
+		</transition>
+		<delay>0.92537</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.92537"/>
+		</transition>
+		<delay>0.59029</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.51566"/>
+		</transition>
+		<delay>0.77088</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.36117"/>
+		</transition>
+		<delay>0.99066</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.99066"/>
+		</transition>
+		<delay>1.69533</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.69533"/>
+		</transition>
+		<delay>0.08572</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.08572"/>
+		</transition>
+		<delay>0.47139</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="3.24310"/>
+		</transition>
+		<delay>0.58904</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.14615"/>
+		</transition>
+		<delay>1.21589</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.21589"/>
+		</transition>
+		<delay>0.58027</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.58027"/>
+		</transition>
+		<delay>0.76419</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.34446"/>
+		</transition>
+		<delay>1.16407</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.92826"/>
+		</transition>
+		<delay>1.10058</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.10058"/>
+		</transition>
+		<delay>0.60673</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="1.70731"/>
+		</transition>
+		<delay>1.09226</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.69899"/>
+		</transition>
+		<delay>0.69058</delay>
+		<transition id="TAPN1_Consume1">
+			<token place="TAPN1_Store" age="0.69058"/>
+		</transition>
+		<delay>0.61280</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.30338"/>
+		</transition>
+		<delay>1.50550</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.50550"/>
+		</transition>
+		<delay>1.19586</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.19586"/>
+		</transition>
+		<delay>1.14084</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.14084"/>
+		</transition>
+		<delay>0.99210</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="0.99210"/>
+		</transition>
+		<delay>1.46540</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.46540"/>
+		</transition>
+		<delay>1.02002</delay>
+		<transition id="TAPN1_Recover">
+			<token place="TAPN1_Resting" age="1.02002"/>
+		</transition>
+		<delay>1.31638</delay>
+		<transition id="TAPN1_Produce">
+			<token place="TAPN1_Ready" age="1.31638"/>
+		</transition>
+	</trace>
+</trace-list>
+
+Max number of tokens found in any reachable marking: 0
+Generated 3 random traces

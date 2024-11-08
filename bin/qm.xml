@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<property-set xmlns="http://tapaal.net/">
+  
+  <property>
+    <id>Overflow trace</id>
+    <description>Overflow trace</description>
+    <smc confidence="0.95" interval-width="0.05" time-bound="1000"/>
+    <formula>
+      <globally>
+        <integer-le>
+          <tokens-count>
+            <place>TAPN1_Store</place>
+          </tokens-count>
+          <integer-constant>3</integer-constant>
+        </integer-le>
+      </globally>
+    </formula>
+  </property>
+</property-set>

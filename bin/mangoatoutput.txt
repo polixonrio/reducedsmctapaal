@@ -1,0 +1,42 @@
+Missing query-indexes for query-file (which is identified as XML-format), assuming only first query is to be verified
+MC: 1
+SMC Verification (all irrelevant options will be ignored)
+Model file is: MGM.xml
+Query file is: QGM.xml
+Starting SMC...
+Need to execute 819751 runs to produce estimation
+. Using 16 threads...
+  runs executed:	819766
+  average run length:	5.29765
+  average run duration:	10.5918
+  verification time:	30.2461s
+  run duration (std. dev.):	1.66863
+  run length (std. dev.):	0.775322
+  statistics of valid runs:
+    number of valid runs: 652965
+    duration of a valid run (average):	10
+    duration of a valid run (std. dev.):	0
+    length of a valid run (average):	5
+    length of a valid run (std. dev.):	0
+  statistics of violating runs:
+    number of violating runs: 166801
+    duration of a violating run (average):	12.9082
+    duration of a violating run (std. dev.):	2.63571
+    length of a violating run (average):	6.46286
+    length of a violating run (std. dev.):	1.11793
+  cumulative probability / step :
+0:0;5:0;5:0.796526;
+  cumulative probability / delay :
+0:0;9.995:0;9.995:0.7965;10:0.7965;10:0.796526;
+
+TRANSITION STATISTICS
+<L2R_MWLR:0> <L2R_MGLR:0> <L2R_MCLR:0> <R2L_MRL:0> <Eating_WolfEatsGoat_L:0> <Eating_GoatEatsCabbage_L:0>
+<Eating_WolfEatsGoat_R:0> <Eating_GoatEatsCabbage_R:0>
+
+PLACE-BOUND STATISTICS
+<Shared_Man_L;0> <Shared_Wolf_L;0> <Shared_Goat_L;0> <Shared_Cab_L;0> <Shared_Man_R;0> <Shared_Wolf_R;0> <Shared_Goat_R;0> <Shared_Cab_R;0> 
+
+Max number of tokens found in any reachable marking: 0
+Probability estimation:
+	Confidence: 95%
+	P = 0.796526 ± 0.0015
